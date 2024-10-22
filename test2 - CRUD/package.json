@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_crud_api_project",
+  "version": "1.0.0",
+  "description": "Creating API using Node JS and performing CRUD operations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Bhakthi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
